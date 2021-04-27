@@ -1,0 +1,49 @@
+body{ 
+    text-align: center;
+    background-color: black;
+    color: white; 
+    
+}
+
+h1{
+    font-size: 65px;
+}
+
+
+input::placeholder{
+    color: white;
+    opacity: 100%;
+
+     /*Font*/
+    font-family: pirulen,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+input{
+    border: none;
+    background-color:#595959;
+    padding:15px 29px 15px 29px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    
+   
+}
+
+button{
+    border: white solid 2px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 44px;
+    font-size: 32px;
+    
+}
+
+.main-font{
+    font-family: pirulen, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
