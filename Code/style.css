@@ -1,49 +1,59 @@
 body{ 
-    text-align: center;
-    background-color: black;
-    color: white; 
-    
-}
+    background-color: black !important;
+    color: white !important;
+} 
 
 h1{
     font-size: 65px;
+    margin:55px 0px 30px 0px;
 }
 
 
 input::placeholder{
-    color: white;
     opacity: 100%;
-
-     /*Font*/
-    font-family: pirulen,sans-serif;
-    font-weight: 200;
-    font-style: normal;
 }
 
 input{
     border: none;
     background-color:#595959;
     padding:15px 29px 15px 29px;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     text-align: center;
     
-   
+    /*Font*/
+    font-family: pirulen,sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
-
-button{
-    border: white solid 2px;
-    background-color: black;
-    color: white;
+#getToChoose{
     padding: 10px 30px;
     margin-top: 44px;
     font-size: 32px;
-    
 }
+
 
 .main-font{
     font-family: pirulen, sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.center{
+    text-align: center;
+}
+
+img{
+    width: 50%;
+}
+
+.modus-margin {
+    margin-top: 14.5px;
+}
+
+button {
+    background-color: black;
+    border: white solid 2px;
+    color: white;
 }
 
