@@ -26,7 +26,7 @@ input{
     font-weight: 200;
     font-style: normal;
 }
-#getToChoose{
+.getToChoose{
     padding: 10px 30px;
     margin-top: 44px;
     font-size: 32px;
@@ -55,5 +55,9 @@ button {
     background-color: black;
     border: white solid 2px;
     color: white;
+}
+
+.gamepadding{
+    margin-top: 200px;
 }
 

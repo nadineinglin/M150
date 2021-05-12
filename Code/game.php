@@ -10,7 +10,15 @@
     <title></title>
 </head>
 <body>
-    <button>Start!</button>
+    <div class="container center">
+        <button id="start"class="getToChoose gamepadding" onclick="startgame()">Start!</button>
+        <div id="game">
+            <div>Hello</div>
+        </div>
+
+
+    </div>
+    
     <script src="logic.js"></script>
 </body>
 </html>
