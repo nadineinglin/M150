@@ -16,7 +16,7 @@
         <form action="choose.html" method="get">
             <input type="text" placeholder="Username" id="username">
             <br>
-            <button class="getToChoose"onclick="getUsername()" class="main-font">Start!</button>
+            <button class="getToChoose main-font"onclick="getUsername()" class="main-font">Start!</button>
         </form>
         <script src="logic.js"></script>
     </div>
