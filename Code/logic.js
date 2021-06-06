@@ -11,31 +11,23 @@ function getUsername(){
 }
 
 function setpath(x) {
-
+    var path = "";
     switch (x) {
         case 1:
+            path= "z";
             console.log("Zahlen")
             break;
         case 2:
+            path = "b";
             console.log("Buchstaben");
             break;
             
         default:
+            path ="bz";
             console.log("Buchstaben & Zahlen")
             break;
     }
-          window.location.href='game.php';
-}
-
-function gamevisibility(z) {
-    if(z){
-        game.style.visibility="";
-        console.log("true");
-    }
-    else{
-        game.style.visibility="hidden";
-        console.log("false");
-    }
+          window.location.href='game.php?gm=' + path;
 }
 
  function startgame(){

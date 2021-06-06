@@ -61,3 +61,11 @@ button {
     margin-top: 200px;
 }
 
+.jumbotron{
+    float: right;
+    background-color: white;
+    opacity: 90%;
+    color:black;
+    padding: 20px;
+}
+
